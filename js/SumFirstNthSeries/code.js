@@ -17,8 +17,18 @@
 function SeriesSum(n) {
   // Happy Coding ^_^
   if (n === 0) return "0.00";
-  return "1.00"
+  if (n === 1) return "1.00";
+  if (n === 2) return "1.25";
+  let result = 1.25
+  let denominator = 4
+  for (let i = 3; i <= n; i++) {
+    denominator += 3
+    result += (1 / denominator)
+  }
 
+  return result.toPrecision(3)
 }
+
+// console.log(SeriesSum(3))
 
 module.exports = SeriesSum
