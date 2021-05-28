@@ -1,0 +1,12 @@
+{
+  "name": "codewars-challenges",
+  "version": "1.0.0",
+  "description": "Repo for codewars challenges",
+  "main": "depends on challenge",
+  "repository": "git@github.com:jackmcc08/codewars-challenges.git",
+  "author": "jackmcc08 <jackmcc08@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.0.1"
+  }
+}
